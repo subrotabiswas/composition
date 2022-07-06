@@ -1,0 +1,447 @@
+/* Bootstrap & font-awesome CSS link */
+
+@import url("bootstrap/css/bootstrap.min.css");
+
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* ...................................................................... */
+
+/* Start Custome CSS code */
+
+* {
+	font-family: 'Georgia', 'sans-serif';
+}
+
+/* All button custom CSS */
+a:focus {
+	box-shadow: none!important;
+}
+
+/* All Section Title Custom CSS */
+.section-titel>div {
+	padding: 0 12px;
+	border-top: 1px solid #e2e2e2;
+	text-align: center;
+	height: 1px;
+}
+
+.section-titel>div>h2 {
+	font-size: 18px;
+	display: inline;
+	text-transform: uppercase;
+	position: relative;
+	top: -12px;
+	color: #fff;
+	background-color: #e2494b;
+	padding: 5px 25px;
+	border-radius: 10px;
+}
+
+
+/* Topnav Section Custom CSS */
+.top-nav {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #e2e2e2;
+	width: 100%;
+	background-color: #fff;
+	z-index: 1001;
+	position: fixed;
+}
+
+.top-nav .logo a {
+	font-size: 26px;
+	color: #505050;
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+.top-nav .logo p {
+	font-size: 12px;
+	color: #666;
+	margin: 0;
+}
+
+.nav-button>ul>li>a {
+	font-size: 13px;
+	line-height: 16px;
+	color: #fff!important;
+	padding: 20px!important;
+	text-transform: uppercase;
+	background-color: #e2494b;
+}
+
+.nav-button>ul>li>a:hover {
+	color: #ee9395!important;
+	transition: all 0.3s ease;
+}
+
+.nav-button>ul>li:first-child>a {
+	border-radius: 10px 0 0 10px;
+}
+
+.nav-button>ul>li:last-child>a {
+	border-radius: 0 10px 10px 0;
+}
+
+.nav-button>ul>li>ul {
+	border-radius: 0;
+	transition: all 0.5s ease!important;
+	padding: 0;
+	border: none;
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+	top: 54px!important;
+}
+
+.nav-button>ul>li>ul>li>a {
+	color: #505050;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 15px 20px;
+}
+
+.nav-button>ul>li>ul>li>a:hover {
+	color: #fff;
+	background-color: #e2494b;
+	transition: all 0.5s ease;
+}
+
+/* Start Slider Carousel section Custom CSS */
+
+.slider {
+	padding-top: 138px;
+	padding-bottom: 100px;
+}
+
+.slider>div>p {
+	margin: 0 auto;
+	font-size: 22px;
+	line-height: 28px;
+	color: #333;
+	text-align: center;
+	padding: 40px 0;
+	font-style: italic;
+	max-width: 750px;
+}
+
+.slider .slider-indicator {
+	bottom: -60px;
+}
+
+.slider .slider-indicator button {
+	width: 10px;
+	height: 10px;
+	background-color: #333;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	outline: 1px solid #333;
+}
+
+/* Start Services Section Custom CSS */
+.services {
+	padding: 60px 0;
+}
+
+.service-box {
+	display: block;
+}
+
+.service-box .service-head i {
+	font-size: 38px;
+	color: #666;
+	margin-right: 15px;
+}
+
+.service-box .service-head h3{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+	color: #666;
+}
+
+.service-box p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #979797;
+	margin: 10px 0;
+}
+
+.service-box a {
+	font-size: 13px;
+	color: #e2494b;
+	text-decoration: none;
+}
+
+/* Start players Section Custom CSS */
+.players {
+	padding: 60px 0;
+}
+
+.player-item>div {
+	border-radius: 0;
+	border: none;
+}
+
+.player-item>div>img {
+	border-radius: 0;
+}
+
+.player-item>div>div {
+	padding: 0;
+}
+
+.players .player-titel {
+	font-size: 13px;
+	font-weight: 600;
+	color: #979797;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.players .player-titel span {
+	font-weight: 400;
+}
+
+.player-item>div>div>p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #979797;
+	margin: 0;
+}
+
+.player-item>div>div>a {
+	text-decoration: none;
+	font-size: 13px;
+	padding-top: 10px;
+	color: #e2494b;
+	display: inline-block;
+}
+
+/* Projects Section Custom CSS */
+.projects {
+	padding: 60px 0 40px;
+}
+
+/* footer Section Custom CSS */
+.footer {
+	padding: 40px 0;
+	background-color: #e2e2e2;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.footer h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+
+/* Blog Post Custom CSS */
+.blog-post-item {
+	margin-top: 20px;
+}
+
+.blog-post-item .img {
+	max-width: 100px;
+	max-height: 100px;
+	border: 1px solid #8e8f8a;
+	margin-right: 20px;
+}
+
+.blog-post-item .img img {
+	padding: 5px;
+	border: 0;
+	background-color: #e2e2e2;
+}
+
+.blog-post-item .blog-containt h4 {
+	font-size: 13px;
+	font-weight: 600;
+	color: #e2494b;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.blog-post-item .blog-containt p {
+	font-size: 12px;
+	color: #999;
+	line-height: 20px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.footer>div>div>div>p {
+	font-size: 12px;
+	color: #999;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+.footer>div>div>div>h5 {
+	font-size: 12px;
+	color: #999;
+	font-weight: 600;
+}
+
+
+/* footer input Custom CSS */
+.footer .contact-form input, textarea {
+	font-size: 13px!important;
+	padding: 10px!important;
+	line-height: 16px!important;
+	width: 100%!important;
+	border-radius: 5px!important;
+	border: none!important;
+}
+
+.footer .contact-form input:focus, textarea:focus {
+	box-shadow: none!important;
+}
+
+.footer .contact-form>a {
+	font-size: 13px;
+	color: #fff;
+	background-color: #e2494b;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	line-height: 14px;
+}
+
+/* Copyright Section Custom CSS */
+.copyright {
+	background-color: #e2e2e2;
+	border-top: 1px solid #fff;
+	padding: 40px 0;
+}
+
+.copyright p {
+	font-size: 12px;
+	margin: 0;
+	color: #999;
+}
+
+
+
+/* Start Responsive Maximun screen size 992px Custom CSS Area */
+@media (max-width: 992px) {
+	/* resposive slider section Custom CSS */
+	.slider {
+		padding-top: 98px;
+	}
+
+	/* resposive top-nav section Custom CSS */
+	.top-nav {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.nav-button {
+		position: absolute;
+		width: 100%;
+		top: 98px;
+		left: 0;
+		z-index: 1000;
+	}
+
+	.nav-button>ul{
+		height: 100vh;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #e2494b;
+	}
+
+	.nav-button>ul>li a {
+		text-align: center;
+		font-size: 15px;
+		transition: none;
+	}
+
+	.nav-button>ul>li:first-child>a {
+		border-radius: 10px 10px 0 0;
+	}
+
+	.nav-button>ul>li:last-child>a {
+		border-radius: 0 0 10px 10px;
+	}
+}
+
+
+/* Start Responsive Maximun screen size 768px Custom CSS Area */
+@media (max-width: 768px) {
+	/* Resposive slider custom CSS */
+	.slider>div>p {
+		font-size: 18px;
+		line-height: 22px;
+		padding: 20px 0;
+	}
+
+	/* Resposive service-box Custom CSS */
+	.service-head {
+		justify-content: center;
+	}
+
+	.service-box {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.service-box:last-child {
+		margin-bottom: 0;
+	}
+
+	.service-box>.service-head {
+		justify-content: center;
+	}
+
+	/* Resposive players section Custom CSS */
+	.player-item {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.player-item:last-child {
+		margin-bottom: 0;
+	}
+
+	/* Responsive projects Custom CSS */
+	.projects {
+		padding: 40px 0 20px;
+	}
+
+	.projects>div>div>div {
+		margin-bottom: 20px;
+	}
+
+	.projects >div>div>div:last-child {
+		margin-bottom: 0;
+	}
+
+	/* Resposive Footer Section Custom CSS */
+	.footer>div>div>div {
+		text-align: center;
+	}
+
+	.footer>div>div>div:first-child {
+		margin-bottom: 20px;
+		text-align: left;
+	}
+
+	.footer>div>div>div:first-child>h3 {
+		text-align: center;
+	}
+
+	/* Responsive Copyright Section Custom CSS */
+
+	.copyright {
+		padding: 20px 0;
+	}
+
+	.copyright p:first-child {
+		margin-bottom: 20px;
+	}
+
+}
